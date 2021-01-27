@@ -5,7 +5,7 @@ An interactive scaffold for creating light-weight and extensible front-end proje
 ## Install
 
 ```
-npm install -g @magig-gear/calcifer
+npm install -g @magic-gear/calcifer
 ```
 
 ## Usage
