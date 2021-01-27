@@ -15,7 +15,9 @@ program.exitOverride(function (err) {
 
 program
   .name(chalk.keyword('orange')(path.basename(packageJson.name)))
+  .version(packageJson.version)
   .usage('<command> [options]')
+  .allowUnknownOption()
   .configureOutput({
     outputError: (str, write) => write(chalk.red(str))
   })
