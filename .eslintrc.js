@@ -7,5 +7,10 @@ module.exports = {
   extends: ['eslint:recommended', 'prettier'],
   parserOptions: {
     ecmaVersion: 12
+  },
+  parser: 'babel-eslint',
+  rules: {
+    'no-unused-vars': ['error', { varsIgnorePattern: '^_' }],
+    'no-empty': ['error', { allowEmptyCatch: true }]
   }
 }

@@ -4,7 +4,6 @@ const program = require('commander')
 const chalk = require('chalk')
 const packageJson = require('../package.json')
 const path = require('path')
-const os = require('os')
 
 program.exitOverride(function (err) {
   if (err.code === 'commander.missingArgument') {
