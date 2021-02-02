@@ -1,6 +1,6 @@
 {
   "name": "@magic-gear/calcifer",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "An interactive scaffold for creating react project.",
   "bin": {
     "calcifer": "bin/index.js"
